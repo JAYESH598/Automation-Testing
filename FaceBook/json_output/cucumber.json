@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Facebook login Test Scenario",
+        "description": "",
+        "id": "facebook-login--action-feature;facebook-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13777009500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should enter the url",
+            "match": {
+              "location": "LoginstepDefinition.user_present_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2011788300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "title of the page is facebook",
+            "match": {
+              "location": "LoginstepDefinition.title_of_the_page_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2384658200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter email and password",
+            "match": {
+              "location": "LoginstepDefinition.user_should_enter_email_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2148626700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on login button",
+            "match": {
+              "location": "LoginstepDefinition.user_should_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login  Action Feature",
+    "description": "",
+    "id": "facebook-login--action-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/eclipse-workspace/FaceBook/src/main/java/Features/login.feature"
+  }
+]
